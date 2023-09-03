@@ -6,7 +6,7 @@ Author URI: https://digitalnavas.it/
 Description: Dentist site for the studio odontoiatrico associato d'ambrosio
 Version: 1.0.0
 Tested up to: 5.4
-Requires PHP: 7.4
+Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: sorrisodambrosio
@@ -27,10 +27,10 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 #Fontawesome
 ------------------------------------------------------------------*/
 $fa-font-path: "webfonts" !default;
-@import "./node_modules/fortawesome-free/scss/fontawesome";
-@import "./node_modules/fortawesome-free/scss/solid";
-@import "./node_modules/fortawesome-free/scss/brands";
-@import "./node_modules/fortawesome-free/scss/regular";
+@import "./node_modules/@fortawesome/fortawesome-free/scss/fontawesome";
+@import "./node_modules/@fortawesome/fortawesome-free/scss/solid";
+@import "./node_modules/@fortawesome/fortawesome-free/scss/brands";
+@import "./node_modules/@fortawesome/fortawesome-free/scss/regular";
 
 
 

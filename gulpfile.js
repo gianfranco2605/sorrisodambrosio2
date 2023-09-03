@@ -8,10 +8,10 @@ const rename = require( 'gulp-rename' );
 
 // const cration can also be chaned by separating them with commas but is discouraged by Google Styleguide
 
-const root = '/';
-const scss = root + 'src/sass';
-const js = root + 'src/js';
-const jsDist = root + 'dist/js';
+const root = './';
+const scss = root + 'src/sass/';
+const js = root + 'src/js/';
+const jsDist = root + 'dist/js/';
 const styleWatchFiles = scss + '**/*.scss';
 
 //below whe create an array of our arrays js files and their locations
@@ -23,9 +23,8 @@ const jsSrc = [
 
 // make sure to run the command 'gulp copyfonts' in the command line
 function copyfonts() {
-    return src(
-        './node_modules/@fortawesome/fontawesome-free/webfonts/**/*.{ttf,woff2}'
-    ).pipe( dest( root + 'webfonts/' ) )
+    return src('./node_modules/@fortawesome/fontawesome-free/webfonts/**/*.{ttf,woff2}')
+        .pipe(dest(root + 'webfonts/'));
 }
 
 function css() {

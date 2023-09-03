@@ -1,0 +1,45 @@
+{
+    "name": "sorriso/dambrosio",
+    "type": "wordpress-theme",
+    "description": "Dentist site for Studio Odontoiatrico D'ambrosio",
+    "keywords": [
+        "WordPress",
+        "Themes"
+    ],
+    "homepage": "https://www.sorrisodambrosio.it",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "plataform": {
+            "php": "7.4"
+        },
+        "allow-plugins": {
+            "dealerdirect/php_codesniffer-composer-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require-dev": {
+        "php-parallel-lint/php-parallel-lint": "^1.3.2",
+        "roave/security-advisories": "dev-master",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.1.4",
+        "wp-cli/wp-cli-bundle": "^2.5.0",
+        "wp-coding-standards/wpcs": "^2.3.0"
+    },
+    "scripts": {
+        "lint:php": "@php ./vendor/php-parallel-lint/php-parallel-lint/parallel-lint --exclude .git --exclude vendor --exclude node_modules.",
+        "lint:wpcs": "@php ./vendor/bin/phpcs",
+        "fix:wpcs": "@php ./vendor/bin/phpcs",
+        "make-pot": "./vendor/bin/wp i18n make-pot . languages/sorrisodambrosio.pot"
+    },
+    "support": {
+        "issues": "https://github.com/Automattic/_s/issues",
+        "source": "https://github.com/Automattic/_s"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    
+}
+

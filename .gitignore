@@ -1,0 +1,37 @@
+### macOS ###
+Icon
+
+### Window ###
+Thumbs.db
+Thumbs.db:encrytable
+ehthumbs.db
+ehthumbs_vista.db
+
+###Folder config file###
+[Dd]estok.ini
+
+# Ignore all files and directories starting with . or ~ or ._ or ending with ~
+.*
+~*
+*~
+._*
+
+# but track
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.stylelintrc.json
+
+# Ignore all files with .lock extentions
+*.lock
+
+# but track
+!.composer.lock
+
+# Ignore all .log files
+.log
+
+# Dependencies 
+node_modules
+vendor
+

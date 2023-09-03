@@ -1,0 +1,48 @@
+.widget {
+	margin: 0 0 1.5em;
+
+	// Make sure select elements fit in widgets.
+	select {
+		max-width: 100%;
+	}
+
+	ul li {
+		padding: 0.2em 0;
+	}
+}
+
+.widget_search,
+.search-field {
+	width: 100%;
+}
+
+.search-form {
+	position: relative;
+}
+
+.search-form label {
+	display: inline;
+}
+
+.search-form input [type="search"] {
+	padding: 0.5rem;
+}
+
+.search-form .search-submit {
+	width: 100%;
+}
+
+.search-form .search-submit:hover {
+	background-color: $color_black;
+}
+
+#secondary .widget-title {
+	border-width: 0 0 0 3px;
+	border-style: solid;
+	border-color: $color__red;
+	letter-spacing: 1px;
+	padding-left: 0.8rem;
+	text-transform: uppercase;
+}
+
+

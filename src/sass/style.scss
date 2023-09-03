@@ -1,0 +1,70 @@
+/*!
+Theme Name: sorrisodambrosio
+Theme URI: http://underscores.me/
+Author: Gianfranco Navas Fernandini
+Author URI: https://digitalnavas.it/
+Description: Dentist site for the studio odontoiatrico associato d'ambrosio
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: sorrisodambrosio
+Tags: dentist, sorriso, smile, dambrosio, digitalnavas
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+sorrisodambrosio is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+/*-----------------------------------------------------------------
+#Bootstrap
+------------------------------------------------------------------*/
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+/*-----------------------------------------------------------------
+#Fontawesome
+------------------------------------------------------------------*/
+$fa-font-path: "webfonts" !default;
+@import "./node_modules/fortawesome-free/scss/fontawesome";
+@import "./node_modules/fortawesome-free/scss/solid";
+@import "./node_modules/fortawesome-free/scss/brands";
+@import "./node_modules/fortawesome-free/scss/regular";
+
+
+
+
+
+@import "custom/colors";
+
+@import "custom/mixins";
+
+@import "custom/header";
+
+@import "custom/menus";
+
+@import "custom/links";
+
+@import "custom/buttons";
+
+@import "custom/fields";
+
+@import "custom/posts-and-pages";
+
+@import "custom/widgets";
+
+@import "custom/media";
+
+@import "custom/tables";
+
+@import "custom/footer";
+
+@import "custom/social-menu";
+
+@import "custom/accessibility";
+
+@import "custom/alignments"; 
+
+
+

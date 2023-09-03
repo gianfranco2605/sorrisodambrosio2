@@ -1,0 +1,48 @@
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    opacity: 0.7;
+    color: $color__white;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu {
+    background-color: $color_dark_gray;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+    color: $color__white !important;
+
+    &:hover,
+    &:focus {
+        color: $color_light_gray !important;
+        background-color: $color_dark_gray;
+    } 
+
+    &.active
+    &:active {
+        color: $color_light_gray !important;
+        background-color: transparent;
+    }
+
+    &.disabled,
+    &:disabled {
+        color: $color_light_gray !important;
+        background-color: transparent;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link-visited {
+    color: $color__white;
+}
+
+//This is to handle any navigation in the sidebar
+
+#secondary .nav {
+    flex-direction: column !important;
+}
+
+
+

@@ -1,0 +1,25 @@
+#Set the default behaivor, in case core.autocrlf isn't set.
+*text=auto
+
+#Declare text files that will always be normalized and converted
+# to native line endings on checkout
+.editorconfig   text
+.gitattributes  text
+.gitignore      text
+*.css           text
+*.scss          text
+*.js            text
+*.json          text
+*.map           text -diff
+*.md            text
+*.txt           text
+*.xml           text
+
+# Declares files that will always haveLF line endings on checkout
+*.php text eol=lf
+
+# Denote all files that are truly binary and should not be modified
+*.jpg.binary
+*.jpeg.binary
+*ttf.binary
+*.woff2.binary

@@ -1,0 +1,76 @@
+.devwpAdminMain {
+    width: 90%;
+    background: #fff;
+    padding: 30px;
+}
+
+.devwp_left {
+    width: 50%;
+    float: left;
+}
+
+.devwpAdminSide {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.devwpAdminSide a {
+    width: 250px;
+    text-decoration: none;
+    background: #cf000f;
+    color: #fff;
+    display: block;
+    margin: 15px 0 0 30%;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.devwpAdminSide a:hover {
+    background: #f22613;
+}
+
+h2.nav-tab-wrapper {
+    margin: 22px 0 0 0 ;
+}
+
+#sections {
+    padding: 22px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: 0px;
+}
+
+section {
+    display: none;
+}
+
+section:first-child {
+    display: block;
+}
+
+.no-js h2.nav-tab-wrapper {
+    display: none;
+}
+
+.no-js #sections {
+    border-top: 1px solid #ccc;
+    margin-top: 22px;
+}
+
+.no-js section {
+    border-top: 1px dashed #aaa;
+    margin-top: 22px;
+    padding-top: 22px;
+}
+
+.no-js section:first-child {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#customize-controls img {
+    width: 100%;
+}
